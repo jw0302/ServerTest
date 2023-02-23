@@ -1,14 +1,14 @@
-//package src.Model.DataTransferObject;
-//
-//import lombok.AllArgsConstructor;
-//import lombok.Data;
-//
-//@AllArgsConstructor
-//@Data
-//public class ReqDto<T> {
-//    private int transferCode;
-//    private T body;
-//}
+package src.Model.DataTransferObject;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+public class ReqDto<T> {
+    private int transferCode;
+    private T body;
+}
 
 /*
 
